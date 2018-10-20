@@ -1,5 +1,4 @@
-#We have referenced the codes proposed by Ando and Li in 2014 at https://sites.google.com/site/tomohiroando0801/computer-codes
-#JMAP
+#cv
 	cv.jmap <- function(x,y,Group) {
 	  K <- length(Group)-1
 	  n <- nrow(x)
@@ -44,7 +43,7 @@
 	  return(cv.fit)
 	}
 
-	 #prediction
+ #predict
 	jma<-function(cv.fit,testx){
 	  w=cv.fit$w
 	  K=cv.fit$K
